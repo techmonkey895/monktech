@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Loja MonkTech</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Calibri, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+header {
+  background: linear-gradient(blue, deepskyblue, white);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+header p {
+  font-size: 20px;
+  color: white;
+}
+nav {
+  background: deepskyblue;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+section {
+  padding: 60px 20px;
+}
+
+.card {
+  background: deepskyblue;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  border: 2px solid #334155;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+footer {
+text-align: center;
+padding: 30px;
+background: #020617;
+color: #94a3b8;
+margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>MonkTech</h1>
+  <p>Inovação com precisão.</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+
+  <a href="#imagens">Acessar catálogo</a>
+
+</nav>
+
+<section id="sobre">
+  <div class="card">
+    <h2>Sobre a loja</h2>
+    <p>
+      Nós vendemos as tecnologias mais avançadas da atualidade, dá só uma olhada! Esse é o estoque disponível no momento.
+    </p>
+  </div>
+</section>
+
+
+    <!-- IMAGEM DOS ITENS -->
+    
+<section id="imagens">
+<div class="card">
+<h2>Catálogo</h2>
+
+    <div class="catalogo">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMMhgzP1Z5_ZSfVLNxgQhJbtY90Rkd8OalEw&s" height="450px"/>
+<img src="https://static.wikia.nocookie.net/universocinematograficomarvel/images/0/0f/Sem_t%C3%ADtulo.png/revision/latest/scale-to-width/360?cb=20201110190515&path-prefix=pt" height="450px"/>
+<img src="https://media.istockphoto.com/id/1397047877/pt/foto/main-microchip-on-the-motherboard.jpg?s=612x612&w=0&k=20&c=nOOMv10NDgWvBF8bRKLKc4HU6s8LjHCL7VvXZZsXBQE=" height="450px"/>
+<h3> Sabres de luz (3 cores)
+    </div>
+
+  </div>
+</section>
+
+<section id="dicas">
+  <div class="card">
+    <h2>Lista de valores</h2>
+    <ul>
+      <li>Sabres de luz (Qualquer cor): R$ 3,000 </li>
+      <li>Armadura Tecnológica: A partir de R$ 100,000 </li>
+      <li> Ultraprocessador Monk26: R$ 5,500 </li>
+
+</ul>
+
+  <a href="" target="_blank" class="botao">
+  COMPRAR AGORA
+</a>
+  </div>
+</section>
+
+<footer>
+ MonkTech 2026
+<br> Inovação com precisão.
+</footer>
+
+</body>
+</html>
